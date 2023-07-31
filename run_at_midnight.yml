@@ -2,7 +2,7 @@ name: Run at Midnight
 
 on:
   schedule:
-    - cron: '38 16 * * *' # Schedule the workflow to run at midnight (UTC time)
+    - cron: '40 16 * * *' # Schedule the workflow to run at midnight (UTC time)
 
 jobs:
   run_script:
